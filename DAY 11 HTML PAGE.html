@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Enter Name:
+<input type="text" id="name">
+
+<button onclick="validateInput()">Submit</button>
+
+<script>
+
+function validateInput() {
+    let text = document.getElementById("name").value;
+
+    if (text == "") {
+        alert("Text field cannot be empty");
+    } else {
+        alert("Input is valid");
+    }
+}
+
+</script>
+
+</body>
+</html>
